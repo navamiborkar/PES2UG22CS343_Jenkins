@@ -1,4 +1,4 @@
-[4:09 pm, 13/3/2025] +91 82965 25262: pipeline {
+pipeline {
     agent any
 
     stages {
@@ -15,7 +15,7 @@
             steps {
                 script {
                     echo 'Running tests...'
-                    sh 'cd /var/jenkins_home/workspace/PES2UG22CS330-1/main/ && ./hello_exec'
+                    sh 'cd /var/jenkins_home/workspace/PES2UG22CS343-1/main/ && ./hello_exec'
                 }
             }
         }
